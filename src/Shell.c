@@ -230,6 +230,7 @@ static tArgs * SplitLine( c8 * Line, tHashTable * HashTable_p )
       if ( Token == NULL)
       {
         Token = TempToken;
+        memset( Token, 0, strlen( Token ) );
       }
     }
     else
