@@ -535,7 +535,7 @@ static s32 BuiltIn_export( tArgs * Args_p, tHashTable * HashTable_p )
   s32 Result = 1;
   c8 * Value;
 
-  printf( "Number of arguments = %d\n", Args_p->nArguments );
+//  printf( "Number of arguments = %d\n", Args_p->nArguments );
   if ( Args_p->nArguments >= 4 )
   {
     Status = strcmp( Args_p->ppArguments[ 2 ], "=" );
